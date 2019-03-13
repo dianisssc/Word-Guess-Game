@@ -5,6 +5,7 @@ var guessesLeft = 10;
 var guessesMade = [];
 var userGuess = document.onkeyup;
 var compGuess = letters[Math.floor(Math.random() * letters.length)];
+// my variables
 
 document.onkeyup = function (event) {
   
